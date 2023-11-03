@@ -9,6 +9,10 @@ AllCops:
 Gemspec/DevelopmentDependencies:
   EnforcedStyle: gemspec
 
+Naming/FileName:
+  Exclude:
+    - lib/bp3-hello-world.rb
+
 Style/StringLiterals:
   Enabled: true
   EnforcedStyle: double_quotes
