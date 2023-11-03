@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bp3-hello-world (0.1.0)
+    bp3-hello-world (0.1.1)
 
 GEM
   remote: https://rubygems.org/
