@@ -6,7 +6,7 @@ module Bp3
       # Context says it all
       class Context
         def self.say_it!
-          I18n.t("hello.world")
+          I18n.t('hello.world')
         end
 
         def say_it!
