@@ -1,6 +1,8 @@
 require:
   - rubocop-rake
   - rubocop-rspec
+  - rubocop-capybara
+  - rubocop-factory_bot
 
 AllCops:
   TargetRubyVersion: 3.2.2
@@ -9,17 +11,33 @@ AllCops:
 Gemspec/DevelopmentDependencies:
   EnforcedStyle: gemspec
 
+Metrics/AbcSize:
+  Max: 26
+
+Metrics/BlockLength:
+  Max: 66
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Metrics/MethodLength:
+  Max: 15
+
+Metrics/ModuleLength:
+  Max: 150
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
 Naming/FileName:
   Exclude:
-    - lib/bp3-hello-world.rb
+    - lib/bp3-*.rb
 
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
+RSpec/ExampleLength:
+  Max: 10
 
-Style/StringLiteralsInInterpolation:
-  Enabled: true
-  EnforcedStyle: double_quotes
+RSpec/MultipleExpectations:
+  Max: 4
 
-Layout/LineLength:
-  Max: 120
+Style/Documentation:
+  Enabled: false
