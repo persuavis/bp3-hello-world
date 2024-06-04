@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ['Wim den Braven']
   spec.email = ['wimdenbraven@persuavis.com']
 
-  spec.summary = 'Bp3::Hello::World is an example Bp3 plugin.'
-  spec.description = 'Bp3::Hello::World is an example Bp3 plugin.'
+  spec.summary = 'Bp3::Hello::World is an example BP3 plugin.'
+  spec.description = 'Bp3::Hello::World is an example BP3 plugin.'
   spec.homepage = 'https://www.black-phoebe.com'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 3.2.2'
