@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bp3-hello-world (0.1.4)
+    bp3-hello-world (0.1.5)
       i18n (>= 1.8.11, < 2)
 
 GEM

@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.1.5] - 2024-06-04
+
+- Update license file
+
 ## [0.1.4] - 2024-06-04
 
 - Tweaks and documentation
