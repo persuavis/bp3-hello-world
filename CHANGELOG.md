@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.1.6] - 2024-11-18
+
+- Use ruby 3.3.5 and relax gem constraints
+
 ## [0.1.5] - 2024-06-04
 
 - Update license file
