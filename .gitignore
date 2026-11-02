@@ -12,3 +12,5 @@
 
 # gem file
 *.gem
+
+.ruby-version
